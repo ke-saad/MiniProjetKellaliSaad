@@ -1,0 +1,99 @@
+.ct{
+  background-image: url('../../MiniProjet2023/images/saad.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+nav{
+  top: 0;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.nav-link{
+  color:black;
+  font-weight:200;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+#bt{
+  padding: 10px 40px 10px 40px ;
+  background-color: rgb(218, 147, 14);
+  border-radius: 7px;
+  font-size: large;
+  color: white;
+  border: solid white;
+  place-content: center;
+  margin: 25% 42.5%;
+  white-space: nowrap;
+  border-width: thin;     
+}
+#big{
+  margin-left: 45%;
+  margin-right: 50%;
+  padding-top: 70px;
+  padding-bottom: 15px;
+  font-size:35px;
+  display:block;
+  white-space: nowrap;
+  
+} 
+.container1{
+  display: flex;
+  justify-content: space-around,center;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+}
+.image{
+  float: none;
+  width:  350px;
+  height: 200px;
+  background-size:  cover;
+  margin: 20px;
+  border-radius: 15px;
+}
+#ac{
+  background-color: rgb(218, 147, 14);
+  border-radius: 7px;
+  color: white;
+  font-size: 15px;
+  border: solid white;
+  white-space: nowrap;
+  padding: 10px 45px;
+  margin-left: 44%;
+}
+figcaption{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+  height:70px;
+  border: solid rgb(233, 222, 222);
+  border-width: thin;
+}
+li {
+  display: inline;
+  font-size: large;
+}
+#li1{
+  padding-left: 100px;
+}
+#li2{
+  padding-left: 30px;
+}
+#li3{
+  padding-left: 30px;
+}
+#liste{
+  margin-top: 35px;
+}
+#slash{
+  color:rgb(218, 147, 14) ;
+}
+.fc{
+  color: rgb(95, 93, 93);
+}
+.pr{
+  padding-top: 10px;
+}

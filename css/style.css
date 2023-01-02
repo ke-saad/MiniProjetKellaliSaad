@@ -1,0 +1,132 @@
+:root {
+    --error-color: #dc3545;
+    --success-color: #28a745;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+small > div{
+    margin-left: 42px;
+    margin-right: 42px;
+    text-align: justify;
+    }
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image:url("../../MiniProjet2023/images/IDK.jpg");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position-y: center;
+    background-position-x: 70%;
+}
+form{
+    border: solid gray;
+    display:grid;
+    align-items: center;
+    margin: 30px 400px 40px -10%;
+    background-color: #fff;
+    opacity: 0.9;
+    backdrop-filter: blur(10px);
+    padding: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 575px;
+    padding: 10px 20px;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+}
+p{
+    text-align: center;
+}
+input{
+    margin-left: 40px;
+    margin-right: 40px;
+    height:30px;
+    width:450px;
+    border:solid, lightgray;
+}
+h1{
+    margin-top:80px;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+
+}
+form>*{
+    background-color: #fff;
+    backdrop-filter: blur(2px);
+}
+.titresdechamps{
+    color: gray;
+}
+#su{
+    margin-left: 43.5px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    height:40px;
+    width:450px;
+    background-color: #319236;
+    border:none;
+    color: #fff;
+    text-transform: initial;
+    margin-bottom: 80px;
+}
+.ff {
+    margin-bottom: 5px;
+
+}
+
+.ff label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.ff input {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width:87%;
+}
+
+.ff input:focus {
+    outline: none;
+}
+
+.ff.error input {
+    border-color: var(--error-color);
+}
+
+.ff.success input {
+    border-color: var(--success-color);
+}
+
+
+.ff small {
+    color: var(--error-color);
+}
+
+#su:hover {
+    background: #17c033;
+    cursor: pointer;
+}
+
+#su:focus {
+    outline:none;
+}
+
+
+
+    
